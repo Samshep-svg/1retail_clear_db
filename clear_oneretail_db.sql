@@ -1,6 +1,6 @@
 SET SQL_SAFE_UPDATES = 0;
 UPDATE oneretailhub.accountingconnection 
-SET EndpointURL = 'https://bns.myobadvanced.com/', Company = 'BNS_Live';
+SET EndpointURL = 'https://bns.myobadvanced.com/', Company = 'BNS_UAT';
 DELETE FROM oneretailhub.transactionappliedpaymentdocument;
 DELETE FROM oneretailhub.transactioncustomerlocation;
 DELETE FROM oneretailhub.transactioncustomer;
